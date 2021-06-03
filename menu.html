@@ -1,0 +1,101 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="menu.css"/>
+<meta charset="UTF-8"/>
+</head>
+<body background="wonder woman.jpg">
+<script type="text/javascript">
+
+window.alert("Bienvnido espero que te guste mi pagina.                                                 Esta pagina fue creada por: Alcala Garcia Jose Luis")
+
+</script>
+
+<font face="Arial Rounded MT Bold" color="white" size="5px">
+Escoje la noticia a leer. podras ver un menu flotante en cada pagina.
+
+</font>
+
+<br>
+<br>
+<br>
+<br>
+<font face="Lucida Bright" color="white">
+<a href="henry cavil despedido.html" target="paginaflex" >
+<input type="button" class="primero" value="¿Henry Cavill despedido?"   />
+</a>
+<br>
+<br>
+<br>
+<a href="snyder renuncia.html" target="paginaflex" >
+<input type="button" class="segundo" value="¿Zack Snyder renuncia?"   />
+</a>
+<br>
+<br>
+<br>
+<a href="abuso de poder.html" target="paginaflex" >
+<input type="button" class="tercero" value="Amenazan carrera de Gal Gadot."/>
+</a>
+<br>
+<br>
+<br>
+<a href="obstaculos.html" target="paginaflex" >
+<input type="button" class="cuarto" value="Warner y el snyderverse."/>
+</a>
+<br>
+<br>
+<a href="encuesta.html" target="paginaflex" >
+<input type="button" class="cuarto" value="Encuesta."/>
+</a>
+<br>
+<br>
+<button class="email" onclick="mensaje()"></button>
+
+<script>
+var cont=0;
+function mensaje(){
+if(cont==0){
+document.getElementById("formulario").style.display="block";
+cont=1;
+}else{
+document.getElementById("formulario").style.display="none";
+cont=0;
+}
+}
+
+</script>
+
+<div id="formulario" class="form">
+<center><font face="Arial Black" color="white" size="5px">Comentarios</font></center>
+<hr>
+<br>
+<center>
+<form enctype="text/plain" action="mailto:alcala.gjose222.1922@gmail.com" accept-charset="utf-8" method="post">
+<font face="Arial Black" color="white" size="3px">
+<label for="nombre">Ingresa tu nombre:</label>
+<br>
+<input type="text" name="nombre" placeholder="nombre" class="text" autocomplete="off">
+<br>
+<br>
+<label for="correo">Ingresa tu correo:</label>
+<br>
+<input type="text" name="Correo" placeholder="correo" class="text" autocomplete="off">
+<br>
+<br>
+<label for="comentario">Ingresa tu comentario:</label>
+<br>
+<textarea class="coment" cols="30" name="comentario" rows="6" autocomplete="off"></textarea>
+<br><br>
+
+<input type="submit"  value="enviar" class="enviarc">
+
+</font>
+
+</center>
+</form>
+
+</div>
+
+
+</font>
+</body>
+</html>

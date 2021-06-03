@@ -1,0 +1,99 @@
+.primero{
+	border-radius:10px;
+	border-color:silver;
+	box-shadow:1px 1px 29px white;
+	background-color:Transparent;
+	cursor:pointer;
+	overflow: hidden; 
+	background-repeat:no-repeat;
+	color:white;
+	height:40px;
+	width:210px;
+}
+.segundo{
+	border-radius:10px;
+	border-color:silver;
+	box-shadow:1px 1px 29px white;
+	background-color:Transparent;
+	cursor:pointer;
+	overflow: hidden; 
+	background-repeat:no-repeat;
+	color:white;
+	height:40px;
+	width:210px;
+}
+.tercero{
+	border-radius:10px;
+	border-color:silver;
+	box-shadow:1px 1px 29px white;
+	background-color:Transparent;
+	cursor:pointer;
+	overflow: hidden; 
+	background-repeat:no-repeat;
+	color:white;
+	height:40px;
+	width:210px;
+}
+.cuarto{
+	border-radius:10px;
+	border-color:silver;
+	box-shadow:1px 1px 29px white;
+	background-color:Transparent;
+	cursor:pointer;
+	overflow: hidden; 
+	background-repeat:no-repeat;
+	color:white;
+	height:40px;
+	width:210px;
+}
+/* CORREO DE COMENTARIO**/
+.email{
+	background-image:url("email icon.png");
+	width:130px;
+	height:130px;
+	border-radius:100%;
+	cursor:pointer;
+	
+}
+
+.form{
+	position:absolute;
+	box-shadow:1px 5px 5px white;
+	width:470px;
+	height:420px;
+	background-color:rgba(00,00,00,0.6);
+left:380px;
+top:50px;
+display:none;
+		
+}
+.text{
+	border-radius:12px;
+	width:200px;
+}
+.text:hover{
+	width:220px;
+	box-shadow:1px 5px 5px white;
+	
+}
+.enviarc{
+	border-radius:12px;
+	color:white;
+	background-color:orange;
+	width:120px;
+	cursor:pointer;
+}
+.enviarc:hover{
+	box-shadow:1px 5px 5px white;
+	width:150px;
+	
+}
+.coment{
+	resize:none;
+	border-radius:12px;
+}
+.coment:hover{
+	width:250px;
+	box-shadow:1px 5px 5px white;
+	
+}

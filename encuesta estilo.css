@@ -1,0 +1,157 @@
+.enc{
+	position:absolute;
+	padding:9px;
+	border-radius:10px;
+	background-color:white;
+	background-color: rgba(00,00,00,0.6);
+	box-shadow: 1px 5px 8px white;
+	width:630px;
+	height:360%;
+	left:220px;
+	
+}
+.opn{
+	resize:none;
+	border-radius:10px;
+	
+	
+}
+.opn:hover{
+	width:240px;
+	box-shadow:1px 5px 5px white;
+	
+}
+.enviar{
+	border-radius:10px;
+	background-color:gold;
+	width:100px;
+	cursor:pointer;
+}
+.enviar:hover{
+	width:120px;
+	box-shadow:1px 5px 5px white;
+}
+
+/*menu flotante*/
+#moren{
+	display:none;
+	
+}
+
+.button{
+	position:fixed;
+	z-index:999;
+	width:100px;
+	height:25px;
+	border-radius:80%;
+	cursor:pointer;
+	transition: all 1s ease-in-out;
+	background-color:black;
+	background-image:url('boton flotante.png');
+}
+.button:before{
+	
+	position:absolute;
+    top:20px;
+	left:9px;
+	content: '';
+	width:25px;
+	height:5px;
+    background:black;
+
+}
+.nav{
+    position:fixed;
+	transform: translatey(2%);
+	opacity:0;
+	top:13px;
+    left:2px;
+	transition: all 0.9s ease-in-out;
+	background:transparent;
+	width:150px;
+    border-radius:5px;
+    transform:translatey(0%);
+	
+
+}
+.nav a{
+	text-align:center;
+	display:block;
+	margin:40px 0;
+	text-transform:uppercase;
+	
+	
+	
+}
+
+
+#moren:checked~.nav{
+	opacity:2;
+	transform:translatey(20%) ;
+	
+}
+/* Botones del menu*/
+
+.segundo1{
+	border-radius:10px;
+	background:black;
+	color:white;
+	width:210px;
+	box-shadow:1px 5px 5px white;
+	cursor:pointer;
+	
+}
+.segundo1:hover{
+	background:white;
+	color:black;
+	
+	
+}
+
+
+.segundo2{
+	border-radius:10px;
+	background:black;
+	color:white;
+	width:210px;
+	box-shadow:1px 5px 5px white;
+	cursor:pointer;
+	
+}
+.segundo2:hover{
+	background:white;
+	color:black;
+	
+	
+}
+.segundo3{
+	border-radius:10px;
+	background:black;
+	color:white;
+	width:210px;
+	box-shadow:1px 5px 5px white;
+	cursor:pointer;
+	
+}
+.segundo3:hover{
+	background:white;
+	color:black;
+	
+	
+}
+.segundo4{
+	border-radius:10px;
+	background:black;
+	color:white;
+	width:210px;
+	box-shadow:1px 5px 5px white;
+	cursor:pointer;
+	
+	
+}
+.segundo4:hover{
+	background:white;
+	color:black;
+	
+	
+}
